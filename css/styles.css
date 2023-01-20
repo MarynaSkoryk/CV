@@ -223,6 +223,10 @@ body {
   color: var(--accent-text-сolor);
 }
 
+.profession-achievement {
+  margin-bottom: 15px;
+}
+
 .profession-duties,
 .profession-achievement {
   margin-top: 14px;
