@@ -251,7 +251,7 @@ body {
 
 .univ-speciality {
   font-size: var(--descr-font-size);
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.5;
   margin-bottom: 15px;
 }
