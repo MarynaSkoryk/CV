@@ -1,8 +1,8 @@
 :root {
   --accent-text-сolor: #000;
   --second-text-color: #100449;
-  --item-font-size: 26px;
-  --descr-font-size: 20px;
+  --item-font-size: 20px;
+  --descr-font-size: 16px;
 }
 
 * {
@@ -12,7 +12,6 @@
 }
 
 a {
-  text-decoration: none;
   color: inherit;
   font-family: inherit;
 }
@@ -35,8 +34,7 @@ body {
 .wrapper {
   background: #fff;
   display: flex;
-  max-width: 2480px;
-  max-height: 3508px;
+  max-width: 1200px;
   margin: 0 auto;
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
@@ -96,6 +94,9 @@ body {
   margin-top: 10px;
   color: var(--accent-text-сolor);
 }
+.contacts-link.none {
+  text-decoration: none;
+}
 
 .skills-title {
   font-size: var(--item-font-size);
@@ -132,14 +133,14 @@ body {
 .info-name {
   font-size: 45px;
   font-weight: 700;
-  margin-bottom: 24px;
+  margin-bottom: 10px;
 }
 
 .info-description {
   font-size: var(--descr-font-size);
   font-weight: 400;
   line-height: 1.5;
-  margin-top: 24px;
+  margin-top: 14px;
 }
 
 .description {
@@ -199,6 +200,13 @@ body {
 
 .profession-title {
   font-size: 22px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-left: 15px;
+}
+
+.profession-achievment__title {
+  font-size: 18px;
   font-weight: 700;
   line-height: 1.5;
   margin-left: 15px;
@@ -353,4 +361,7 @@ body {
 .rodo-text {
   font-size: 10px;
   color: grey;
+}
+.grey-pointers {
+  color: rgb(207, 204, 204);
 }
