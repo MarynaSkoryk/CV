@@ -199,7 +199,7 @@ body {
 }
 
 .profession-title {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 1.5;
   margin-left: 15px;
@@ -213,7 +213,7 @@ body {
 }
 
 .profession-company {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 1.5;
   color: var(--second-text-color);
@@ -257,7 +257,7 @@ body {
 
 .univ-name {
   color: var(--second-text-color);
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 1.5;
 }
@@ -342,7 +342,7 @@ body {
     margin-bottom: 30px;
   }
   .about-me-title {
-    font-size: 18px;
+    font-size: 20px;
   }
   .education-container {
     margin-top: 30px;
