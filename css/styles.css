@@ -166,7 +166,7 @@ body {
 }
 
 .projects-link {
-  text-decoration: none;
+  text-decoration: underline;
   color: var(--accent-text-сolor);
   font-size: var(--descr-font-size);
   font-weight: 600;
