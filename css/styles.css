@@ -345,3 +345,11 @@ body {
     margin-top: 0;
   }
 }
+
+.rodo {
+  margin-top: 70px;
+}
+.rodo-text {
+  font-size: 12px;
+  color: grey;
+}
